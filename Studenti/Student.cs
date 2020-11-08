@@ -3,7 +3,11 @@ namespace Studenti
 {
     public class Student : Osoba
     {
-        public int brojIndeksa = "32";
-        public double prosekOcena = "8.5";
+        public int BrojIndeksa  { get; set; }
+	    public double ProsekOcena  { get; set; }
+	
+	    string PunoIme(){
+		return BrojIndeksa + ProsekOcena;	
+	    }
     }
 }

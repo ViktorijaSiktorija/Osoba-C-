@@ -7,6 +7,7 @@ namespace Studenti
         static void Main(string[] args)
         {
             Student studentStudent = new Student();
+            Console.WriteLine(studentStudent.PunoIme());
             
         }
     }
